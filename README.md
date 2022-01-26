@@ -59,6 +59,12 @@ Anschließend stellt die Flask API die PNGs der jeweiligen Analysen bereit.
 
 # Frontend
 
+Das Frontend wurde mit HTML und JavaScript umgesetzt. Zu sehen ist eine Sidebar auf der Linken Seite, die das Logo und die Dashboardseite präsentiert. Die Visualisierungen der Ergebnisse aller Analysen sind in zwei Teile aufgeteilt.
+Zum einen wird in der oberen Hälfte der Website der vorhergesehene Preis anhand einer Kennzahl und einem Graph dargestellt. Mittig platziert ist der BoxPlot, der die Ergebnisse der Sentimentanalyse anzeigt. Auf der rechten Seite lässt sich die Preihistorie der angefragten Aktie erkennen.
+Auf der unteren Hälfte der Seite werden die erstellten Wordclouds dargestellt, um die Ergebnisse der Sentimentanalyse und der Tweets darzustellen. Dabei wird link auf die Wordcloud aller Tweets, in der Mitte auf die Wordcloud der Tweets mit positivem Sentiment 
+und auf der rechten Seite auf die Wordcloud der Tweets mit negativem Sentiment eingegangen.
+Mit dem Einstellungsrad auf der rechten unteren Ecke wird ein Einstellungsmenü aufgerufen, in dem die Farbe der Sidebar geändert werden kann, sowie ein Darkmodus aktiviert werden kann.
+Zudem kann dort eine Aktienabkürzung und die Anzahl der zu crawlenden Tweets eingegeben werden.
 
 <img src="./assets/frontend.jpeg" alt="Frontend" title="Frontend" />
 
