@@ -41,7 +41,10 @@ Schnell und einfach Echtzeit Analysen von Aktienkursen und Sentimenten bekommen.
 
 ### Backend
 
-tbd
+Das Backend läuft über die Flask API. 
+Es werden die Code Pipelines der TSA und Sentiment Analyse mithilfe von Inputs im Frontend ausgeführt. 
+Dabei kriegt das Backend mithilfe von JavaScript die Daten der Aktien, des Aktienkürzels und die Anzahl der Tweets, die analyisert werden sollen.
+Anschließend stellt die Flask API die PNGs der jeweiligen Analysten bereit.
 
 ### Frontend
 
