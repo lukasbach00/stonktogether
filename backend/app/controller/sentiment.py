@@ -16,7 +16,7 @@ class SentimentAnalysis(Resource):
     def post(self):
         data = request.json
         from app.services.keyword_sentiment import keyword_sentiment 
-        keyword_sentiment(data["stock"], data["tweets"])
+        #keyword_sentiment(data["stock"], data["tweets"])
         print("Done with Sentiment")
         return {"status" : "success"}
 

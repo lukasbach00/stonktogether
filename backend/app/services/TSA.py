@@ -142,7 +142,7 @@ def updatePNGsAndReturnPrediction(ticker = "GILD"):
     closePriceHistory(df)
     pred_price = ModelPricePred(df, ticker, data_source, start_date, predict_date)[0][0]
     valid_price = web.DataReader(ticker, data_source=data_source, start=valid_date, end=valid_date)["Close"][0]
-    return [valid_price, pred_price]
+    return [round(valid_price, 2), round(pred_price, 2)]
 
 
 #return prediction value
